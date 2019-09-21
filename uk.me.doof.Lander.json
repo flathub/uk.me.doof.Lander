@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/nickg/lander/releases/download/r0.7.1/lander-0.7.1.tar.xz",
-                    "sha256": "1ddeb57039597eb89ca1b2c1b4c5acd2a0b2b44bfc09ee419042fd836fc937e2"
+                    "url": "https://github.com/nickg/lander/releases/download/r0.7.2/lander-0.7.2.tar.xz",
+                    "sha256": "66f5805b1867479ef119c47faf9548032aa31f763576b3010f05fc11399c51a4"
                 }
             ]
         }
