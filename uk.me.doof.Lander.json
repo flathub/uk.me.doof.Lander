@@ -1,7 +1,7 @@
 {
     "app-id": "uk.me.doof.Lander",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime": "org.freedesktop.Platform.GL.default",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "lander",
     "finish-args": [
