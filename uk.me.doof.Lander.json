@@ -1,7 +1,7 @@
 {
     "app-id": "uk.me.doof.Lander",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "lander",
     "finish-args": [
@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/nickg/lander/releases/download/r0.7.2/lander-0.7.2.tar.xz",
-                    "sha256": "66f5805b1867479ef119c47faf9548032aa31f763576b3010f05fc11399c51a4"
+                    "url": "https://github.com/nickg/lander/releases/download/r0.7.3/lander-0.7.3.tar.xz",
+                    "sha256": "980ffa84e8c3f8072398b0fd809502ed4c72c9cfdce1b52e013f3af58c108da4"
                 }
             ]
         }
