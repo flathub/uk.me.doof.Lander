@@ -1,9 +1,10 @@
 {
     "app-id": "uk.me.doof.Lander",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "lander",
+    "rename-icon": "lander",
     "finish-args": [
         "--socket=x11",
         "--share=ipc",
@@ -15,6 +16,7 @@
     "modules": [
         "shared-modules/glu/glu-9.json",
         "shared-modules/glew/glew.json",
+        "shared-modules/SDL2/SDL2_image.json",
         {
             "name": "lander",
             "buildsystem": "meson",
@@ -23,6 +25,10 @@
                     "type": "archive",
                     "url": "https://github.com/nickg/lander/releases/download/r0.7.3/lander-0.7.3.tar.xz",
                     "sha256": "980ffa84e8c3f8072398b0fd809502ed4c72c9cfdce1b52e013f3af58c108da4"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }
